@@ -1,2 +1,2 @@
 # Algorithms-DataStructures
- Repository to solve challenges using python data structures and algorithms
+ Repository of solved challenges using python data structures and algorithms
