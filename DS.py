@@ -1,22 +1,11 @@
-#!/bin/python3
-
-import math
 import os
-import random
-import re
-import sys
-import RepeatedString
-# Complete the repeatedString function below.
+from RepeatedString import repeatedString
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
+    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
     s = input()
-
     n = int(input())
-
     result = repeatedString(s, n)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print(str(result))
+    # fptr.write(str(result) + '\n')
+    # fptr.close()
